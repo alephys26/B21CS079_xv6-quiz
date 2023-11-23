@@ -121,32 +121,37 @@ Please write your answers here
 ### MCQs
 1. b A Unix-like operating system
 2. b  Linux
-3. c ext4
+3. d simple
 4. a As functions in the C standard library
-5. a
-6. d
-7. a
-8. a
-9. d
-10. b
-11. c
+5. a  128
+6. c Sh
+7. a Round-robin scheduling
+8. a Paging
+9. c Using software interrupts
+10. b No
+11. c MIT
 
 ### Theoretical Questions
 
-12. a
+12. A process can be in the following states:
+    1. Run : process is running currently
+    2. Wait : process is scheduled to execute but is not yet ready
+    3. Ready : process that would be executed in next context switch
+    4. Suspend Wait : process that is stopped due to interrupts or I/O
+    5. Suspend Ready : process that is ready to shift to wait or ready state after interrupt or I/O
+    6. Terminate : process that has been executed
 
-13. c
+13. 
+15. d
 
-14. d
-
-15. c
-
-16. s
+16. In XV6, ls for listing commands, ps for listing processes and echo for handling commands related to echo applications are aong the three essential commands.
 
 17. s
 
-18. ds
+18. s
 
 19. ds
 
-20. d
+20. ds
+
+21. d
