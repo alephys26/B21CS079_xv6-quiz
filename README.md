@@ -141,10 +141,16 @@ Please write your answers here
     5. Suspend Ready : process that is ready to shift to wait or ready state after interrupt or I/O
     6. Terminate : process that has been executed
 
-13. 
+13. The file system of xv6 has :
+    1. Driver
+    2. Buffer Cache
+    3. Log
+    4. Inode
+    5. Directory files
+    6. File Tables
 15. d
 
-16. In XV6, ls for listing commands, ps for listing processes and echo for handling commands related to echo applications are aong the three essential commands.
+16. In XV6, ls for listing commands, ps for listing processes and echo for handling commands related to echo application are aong the three essential commands.
 
 17. s
 
