@@ -133,4 +133,20 @@ Please write your answers here
 
 ### Theoretical Questions
 
-12. 
+12. a
+
+13. c
+
+14. d
+
+15. c
+
+16. s
+
+17. s
+
+18. ds
+
+19. ds
+
+20. d
