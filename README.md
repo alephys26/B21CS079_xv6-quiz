@@ -142,12 +142,12 @@ Please write your answers here
     6. Terminate : process that has been executed
 
 13. The file system of xv6 has :
-    1. Driver
-    2. Buffer Cache
-    3. Log
-    4. Inode
-    5. Directory files
-    6. File Tables
+    1. Driver : The driver that handles device
+    2. Buffer Cache : The buffer that stores blocks of data from memory
+    3. Log : The log that stores the records of transactions before executing them
+    4. Directory files : The directory are in form of files that have their entries and inodes in directory tables 
+    5. File Tables : The files have their tables that handle there open, close operations using their descriptors(pointers, inode locations, open, close flags, etc)
+       
 15. d
 
 16. In XV6, ls for listing commands, ps for listing processes and echo for handling commands related to echo application are aong the three essential commands.
