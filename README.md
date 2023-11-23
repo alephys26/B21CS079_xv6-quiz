@@ -119,10 +119,10 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 Please write your answers here
 
 ### MCQs
-1. b
-2. b
-3. c
-4. a
+1. b A Unix-like operating system
+2. b  Linux
+3. c ext4
+4. a As functions in the C standard library
 5. a
 6. d
 7. a
