@@ -148,16 +148,17 @@ Please write your answers here
     4. Directory files : The directory are in form of files that have their entries and inodes in directory tables 
     5. File Tables : The files have their tables that handle there open, close operations using their descriptors(pointers, inode locations, open, close flags, etc)
        
-15. d
+15. In xv6, pages are only of physical form, there is no virtual paging. The page size is of 4 KB and page table structure is of 2-levels. The first 10 bits of a 32-bit virtual address are used to index into the page table directory, which provides an address of the inner page table. The next 10 bits index into the inner page table to locate the page table entry (PTE). The PTE contains a 20-bit physical frame number and flags. Every page table in xv6 has mappings for user pages as well as kernel pages.
+   
 
-16. In XV6, ls for listing commands, ps for listing processes and echo for handling commands related to echo application are aong the three essential commands.
-
-17. s
+17. In XV6, ls for listing commands, ps for listing processes and echo for handling commands related to echo application are aong the three essential commands.
 
 18. s
 
-19. ds
+19. s
 
 20. ds
 
-21. d
+21. ds
+
+22. d
